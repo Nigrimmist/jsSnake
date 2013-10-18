@@ -1,0 +1,1 @@
+Classic Snake game, wrote on javascript using css/html. For fun :)
