@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>SnakeIt!</title>
+  
+  <script type='text/javascript' src='http://code.jquery.com/jquery-1.9.1.js'></script>
+  <script type='text/javascript' src='js/snake.js'></script>
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+  <div class="snakeOptions">
+    <h1>Настройки</h1>
+    <table>
+        <tr>
+            <td>
+                Ширина поля: 
+            </td>
+            <td>
+                <input id="sizeX" type="text" value="10"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Высота поля: 
+            </td>
+            <td>
+                <input id="sizeY" type="text" value="10"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Скорость игры : 
+            </td>
+            <td>
+                <label><input type="radio" name="gameSpeed" value="500" >Слоупок</label> |
+                <label><input type="radio" name="gameSpeed" value="300" checked="checked"/>Капитан</label> |
+                <label><input type="radio" name="gameSpeed" value="100"  />Чак </label>
+            </td>
+        </tr>
+    </table>
+    
+    <input type="button" id="saveOptions" value="Применить настройки"/>
+</div>
+<div>
+    <table>
+        <tr><td>
+                <table id="tbl">
+    
+                </table>
+            </td>
+                  <td>
+                        <div class="cookieContainer"><span>Съедено печенек : </span><span id="cookieCounter" class="cookies">0</span></div>
+                  </td>
+
+              </tr>
+
+    </table>
+    
+</div>
+<div class="footer">
+    Для того чтобы начать играть нажмите любую стрелку на клавиатуре.
+</div>
+    
+  
+</body>
+
+
+</html>
+

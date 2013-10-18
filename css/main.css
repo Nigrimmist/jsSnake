@@ -1,0 +1,33 @@
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-top: 0.75em;
+    border: 0 none;
+}
+#tbl td {
+    width:20px;
+    height:20px;
+    background-color:white;
+    border:1px solid black;
+}
+
+.snakeOptions {
+    margin-bottom: 20px;
+}
+
+#startGame,.footer {
+    margin-top: 10px;
+}
+
+.cookies {
+    color: red;
+    font-weight: bold;
+}
+
+.cookieTd {
+    background-image: url('https://www.google.com/help/hc/images/chrome_95647_cookie_allowed.png')
+}
+
+.cookieContainer {
+    margin-left: 10px;
+}
